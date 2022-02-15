@@ -1,4 +1,4 @@
-# SBE306 Final Project (VTK) 
+# Medical Data Viewer with VTK
 
 
 ## Detailed implementation:
