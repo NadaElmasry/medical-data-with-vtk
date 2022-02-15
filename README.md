@@ -39,25 +39,6 @@ The chest -----> cropping widget and peicewise gaussian widget
 
 ![Image of Code Result](images/chest-ray-casting-2.png)
 
-## Problems we faced and how we dealt with it:
- 
-1. All the medical examples were written with vanilla js, and we wanted to create a react app. So when we tried to embed the examples code, it didn't work.
 
-Solution: we read the cone example (only example that uses react) and we found that the missing part was to put the code inside function App
-
-2. The examples on the website had some errors due to difference in versions.
-
-Solution: we needed to change the imports to '@kitware/vtk.js' instead of 'vtk.js/sources'.
-
-3. Another problem is that at first trial for toggling between scenes, the page would reload from the start, and reload the data every time.
-
-Solution: we built our app to load the data and render them at the beginning, and control the toggling via control the visibility of the actors themselves.
-
-
-## Future Work:
-
-Put cropping widget control panel.
-
-Enable the user to load DICOM images and choose the algorithm applied on them.
 
 
